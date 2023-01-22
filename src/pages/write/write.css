@@ -1,0 +1,91 @@
+.write {
+    padding-top: 50px;
+    height: 70vh;
+    margin-top: 100px;
+  }
+  
+  .writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeForm {
+    position: relative;
+  }
+  
+  .writeFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .writeIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(129, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+  }
+  .selectInput{
+    font-size: 15px;
+    color: gray;
+  }
+  .writeInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .writeInput:focus {
+    outline-style: none;
+  }
+  
+  .writeText {
+    width: 70vw;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .writeSubmit {
+  
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+    margin-top:30px ;
+    margin-left: 1%;
+  }
+  .errorMessage{
+    background-color: #ffcccb;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 70%;
+    margin:10px;
+  }
+  .selectText
+  { color: rgb(189, 185, 185);
+    font-weight: 400;
+    font-size: 30px;
+  }
+  

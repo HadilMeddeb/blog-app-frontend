@@ -1,0 +1,61 @@
+.header {
+
+  background-image: url("https://www.intelrealsense.com/wp-content/uploads/2020/04/header_robotic_automation-1024x576.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: #eaa03f;
+}
+
+.headerTitleSm {
+ 
+  font-size:90px;
+  margin-top: 280px;
+}
+.headerTitleSsm
+{
+ justify-content: center;
+  font-size:40px; 
+  color: #444;
+}
+.headerTitleLg {
+  position: absolute;
+  top: 10%;
+  font-size: 80px;
+}
+
+.headerImg {
+  width: 100%;
+  height: 550px;
+  margin-top: 80px;
+  object-fit: cover;
+}
+
+.btn
+{
+  font-size:17px; 
+  padding: 15px;
+  background-color: transparent;
+  color: #111;
+  font-weight:100;
+  width: 250px;
+  height: 50px;
+  border:1px solid  #111;
+  border-radius: 20px;
+  pointer-events: pointer;
+  margin-top: 40px;
+}
+.btn:hover
+{
+  color: #111;
+  background-color: lightgrey;
+  border: none;
+}
